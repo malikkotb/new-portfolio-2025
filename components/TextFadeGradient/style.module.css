@@ -1,0 +1,19 @@
+.paragraph {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  /* text-align: center; */
+  display: inline-block;
+  line-height: 1;
+  color: white;
+}
+
+.paragraph .word {
+  position: relative;
+  display: inline-block;
+}
+
+.paragraph .word .shadow {
+  position: absolute;
+  opacity: 20%;
+}
