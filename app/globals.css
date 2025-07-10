@@ -121,13 +121,13 @@ h1 {
 
 }
 
+
 .h2 {
   /* for headings of sections */
   font-family: var(--font-neuemontreal-medium);
-  font-size: 20px;
-  opacity: 0.6;
-  line-height: 120%;
-  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 100%;
 }
 
 .h3 {

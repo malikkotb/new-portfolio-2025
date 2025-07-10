@@ -22,18 +22,19 @@ export default function Services() {
   };
 
   return (
-    <div className='pb-10' id='services'>
-      <h2 className='h2 pb-4'>Services</h2>
+    <div className='pb-40' id='services'>
+      <h2 className='h2'>Services</h2>
+      <div className='bg-white opacity-65 w-full h-[1px] my-4'></div>
       <div className='w-full'>
         <Accordion
           type='single'
           collapsible
-          className='w-full text-sm'
+          className='w-full'
           // defaultValue="item-1"
         >
           <AccordionItem value='item-1'>
             <AccordionTrigger>Creative Development</AccordionTrigger>
-            <AccordionContent className='flex flex-col '>
+            <AccordionContent className=''>
               Need design and development? I got u. Lorem ipsum dolor
               sit, amet consectetur adipisicing elit. Molestias illo
               perspiciatis sint repellat? Accusamus nemo dignissimos
@@ -43,7 +44,7 @@ export default function Services() {
           </AccordionItem>
           <AccordionItem value='item-2'>
             <AccordionTrigger>Frontend Development</AccordionTrigger>
-            <AccordionContent className='flex flex-col '>
+            <AccordionContent>
               Lorem ipsum dolor sit, amet consectetur adipisicing
               elit. Molestias illo perspiciatis sint repellat?
               Accusamus nemo dignissimos unde iusto expedita eos
@@ -55,23 +56,13 @@ export default function Services() {
             <AccordionTrigger>
               Interaction Development
             </AccordionTrigger>
-            <AccordionContent className='flex flex-col '>
+            <AccordionContent>
               Have an animation in my mind? I can bring it to life.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value='item-4'>
-            <AccordionTrigger>DESIGN SYSTEMS</AccordionTrigger>
-            <AccordionContent className='flex flex-col '>
-              Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Molestias illo perspiciatis sint repellat?
-              Accusamus nemo dignissimos unde iusto expedita eos
-              provident, modi quidem dolorum, sit odio magni at
-              exercitationem deleniti. 4
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value='item-5'>
             <AccordionTrigger>CMS Integration</AccordionTrigger>
-            <AccordionContent className='flex flex-col'>
+            <AccordionContent>
               Lorem ipsum dolor sit, amet consectetur adipisicing
               elit. Molestias illo perspiciatis sint repellat?
               Accusamus nemo dignissimos unde iusto expedita eos
@@ -79,9 +70,9 @@ export default function Services() {
               exercitationem deleniti. 5
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value='item-6'>
+          <AccordionItem value='item-5'>
             <AccordionTrigger>Three-D Development</AccordionTrigger>
-            <AccordionContent className='flex flex-col '>
+            <AccordionContent>
               Lorem ipsum dolor sit, amet consectetur adipisicing
               elit. Molestias illo perspiciatis sint repellat?
               Accusamus nemo dignissimos unde iusto expedita eos
@@ -89,11 +80,11 @@ export default function Services() {
               exercitationem deleniti. 6
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value='item-7'>
+          <AccordionItem value='item-6'>
             <AccordionTrigger>
               E-Commerce Development
             </AccordionTrigger>
-            <AccordionContent className='flex flex-col '>
+            <AccordionContent>
               Looking to build an e-commerce store? I can help you
               with custom solutions using hydrogen/shopify. A
               framework by shopify where you can build your own custom
@@ -102,7 +93,7 @@ export default function Services() {
           </AccordionItem>
           <AccordionItem value='item-8'>
             <AccordionTrigger>Webflow Development</AccordionTrigger>
-            <AccordionContent className='flex flex-col '>
+            <AccordionContent>
               Build anything with webflow. I can help you with custom
               solutions using webflow. Benefits of using webflow: Ease
               to use after develpoment, CMS Integration is flawless.

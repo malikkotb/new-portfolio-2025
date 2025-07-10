@@ -8,6 +8,8 @@
 ✔ implement smooth scroll to any section in the page @started(25-07-09 08:36) @done(25-07-09 08:36) @lasted(9s)
 ☐ hook up to new domain malikotb.com
 ☐ check letter spacing of nav links etc. on mobile and desktop compared to figma file
+☐ use dvh or svh for mobile height and width
+☐ fix spacing between h1 and p on hero for very large screens
 ☐ incorporate google analytics
 ☐ maybe include the animation on scroll like: <TextFadeGradient />
 ☐ set meta tags for optimal SEO engagement

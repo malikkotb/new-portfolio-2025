@@ -17,7 +17,7 @@ export default function Navigation() {
   }, []);
 
   return (
-    <div className='md:sticky md:top-5 flex flex-col justify-between h-[calc(100vh-20px)] md:h-[calc(100vh-40px)] pb-5 md:pb-0 col-span-6'>
+    <div className='md:sticky md:top-5 flex flex-col justify-between h-[calc(100dvh-20px)] md:h-[calc(100vh-40px)] pb-5 md:pb-0 col-span-6'>
       <div className='flex justify-between'>
         <div className='text-sm flex flex-col'>
           <h2 style={{ letterSpacing: "-0.03em" }}>MALIK KOTB</h2>
