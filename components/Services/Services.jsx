@@ -26,6 +26,21 @@ export default function Services() {
       <h2 className='h2'>Services</h2>
       <div className='bg-white opacity-65 w-full h-[1px] my-4'></div>
       <div className='w-full'>
+        <style jsx global>{`
+          [data-slot="accordion-item"]
+            [data-slot="accordion-trigger"] {
+            opacity: 1;
+            transition: opacity 0.3s ease;
+          }
+
+          [data-slot="accordion"]:has(
+              [data-slot="accordion-item"]:hover
+            )
+            [data-slot="accordion-item"]:not(:hover)
+            [data-slot="accordion-trigger"] {
+            opacity: 0.65;
+          }
+        `}</style>
         <Accordion
           type='single'
           collapsible
