@@ -11,14 +11,14 @@ export default function Hero() {
         <br />
         <span className=' whitespace-nowrap'>Creative Developer</span>
       </h1>
-      <h3 className='uppercase text-sm md:col-span-6 lg:col-span-5 xl:col-span-4 md:-mt-5 lg:mt-2 xl:mt-5 row-start-7'>
+      <p className='uppercase text-sm md:col-span-6 lg:col-span-5 xl:col-span-4 md:-mt-5 lg:mt-2 xl:mt-5 row-start-7'>
         {/* I turn design-led ideas into powerful websites—because great
         work deserves a great presence. */}
         Design deserves more than pixels — it deserves presence. I
         turn creative visions into powerful web experiences that look
         as good as they feel. Let&apos;s make your next project
         unforgettable.
-      </h3>
+      </p>
     </div>
   );
 }

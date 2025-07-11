@@ -62,7 +62,14 @@ export default function Home() {
       <div className='h-full col-span-6'>
         <Hero />
         <Services />
-        <Projects />
+        <div className='mt-[35vh] pb-[35vh]'>
+          <h2 id='projects' className='h2'>
+            Projects
+          </h2>
+          <div className='bg-white opacity-65 w-full h-[1px] my-4'></div>
+          <p className='uppercase text-sm'>Coming Soon!</p>
+        </div>
+        {/* <Projects /> */}
       </div>
       <MobileFooter />
     </main>

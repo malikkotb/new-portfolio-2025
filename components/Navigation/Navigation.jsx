@@ -26,14 +26,14 @@ export default function Navigation() {
         <nav className='uppercase text-sm md:hidden flex flex-col'>
           <ScrambleLink href='#top'>INDEX</ScrambleLink>
           <ScrambleLink href='#services'>SERVICES</ScrambleLink>
-          <ScrambleLink href='#work'>WORK</ScrambleLink>
+          <ScrambleLink href='#projects'>PROJECTS</ScrambleLink>
           <ScrambleLink href='#about'>ABOUT</ScrambleLink>
         </nav>
       </div>
       <nav className='uppercase text-sm hidden md:flex flex-col'>
         <ScrambleLink href='#top'>INDEX</ScrambleLink>
         <ScrambleLink href='#services'>SERVICES</ScrambleLink>
-        <ScrambleLink href='#work'>WORK</ScrambleLink>
+        <ScrambleLink href='#projects'>PROJECTS</ScrambleLink>
         <ScrambleLink href='#about'>ABOUT</ScrambleLink>
         <div
           id='status'
@@ -67,7 +67,7 @@ export default function Navigation() {
           Book a call
         </div>
       </div>
-      <div className='flex md:hidden items-end flex-col w-full h-fit'>
+      <div className='flex md:hidden mb-4 items-end flex-col w-full h-fit'>
         <div
           style={{ lineHeight: "120%" }}
           className='uppercase text-sm opacity-65'

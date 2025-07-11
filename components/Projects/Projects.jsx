@@ -1,7 +1,8 @@
 "use client";
-import { projects } from "../../app/data_2";
+import { projects } from "../../app/data";
 import { useScroll } from "framer-motion";
 import { useRef } from "react";
+import Card from "./Card";
 
 export default function Projects() {
   const container = useRef(null);
@@ -14,7 +15,15 @@ export default function Projects() {
     <div className=''>
       <h2 className='h2'>Projects</h2>
       <div className='bg-white opacity-65 w-full h-[1px] my-4'></div>
-      {/* <div ref={container} className=''>
+      <div className='grid grid-cols-6'>
+        <p className='uppercase text-sm col-span-4'>
+          Design deserves more than pixels — it deserves presence. I
+          turn creative visions into powerful web experiences that
+          look as good as they feel. Let&apos;s make your next project
+          unforgettable.
+        </p>
+      </div>
+      <div ref={container} className='mt-[50vh] relative'>
         {projects.map((project, i) => {
           const targetScale = 1 - (projects.length - i) * 0.05;
           return (
@@ -28,7 +37,7 @@ export default function Projects() {
             />
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 }

@@ -33,70 +33,68 @@ export default function Services() {
           // defaultValue="item-1"
         >
           <AccordionItem value='item-1'>
-            <AccordionTrigger>Creative Development</AccordionTrigger>
-            <AccordionContent className=''>
-              Need design and development? I got u. Lorem ipsum dolor
-              sit, amet consectetur adipisicing elit. Molestias illo
-              perspiciatis sint repellat? Accusamus nemo dignissimos
-              unde iusto expedita eos provident, modi quidem dolorum,
-              sit odio magni at exercitationem deleniti. q
+            <AccordionTrigger>Web Development</AccordionTrigger>
+            <AccordionContent className='flex'>
+              I design and develop interactive, visually bold websites
+              - combining design and code into one cohesive process. I
+              build custom experiences with React.js and also develop
+              in Webflow when a design-first, fast-to-launch solution
+              is needed.
+              <br />
+              <br />
+              Note: Design is offered only as part of a development
+              project - not as a standalone service.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value='item-2'>
             <AccordionTrigger>Frontend Development</AccordionTrigger>
             <AccordionContent>
-              Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Molestias illo perspiciatis sint repellat?
-              Accusamus nemo dignissimos unde iusto expedita eos
-              provident, modi quidem dolorum, sit odio magni at
-              exercitationem deleniti. 2
+              From Figma to life - I build interactive, visually bold
+              experiences that merge design and code. Whether
+              it&apos;s scroll-based animation, immersive 3D, WebGL,
+              or generative visuals, I use tools like GSAP and
+              Three.js to craft smooth, memorable websites that go far
+              beyond templates.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value='item-3'>
             <AccordionTrigger>
-              Interaction Development
-            </AccordionTrigger>
-            <AccordionContent>
-              Have an animation in my mind? I can bring it to life.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value='item-4'>
-            <AccordionTrigger>CMS Integration</AccordionTrigger>
-            <AccordionContent>
-              Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Molestias illo perspiciatis sint repellat?
-              Accusamus nemo dignissimos unde iusto expedita eos
-              provident, modi quidem dolorum, sit odio magni at
-              exercitationem deleniti. 5
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value='item-5'>
-            <AccordionTrigger>Three-D Development</AccordionTrigger>
-            <AccordionContent>
-              Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Molestias illo perspiciatis sint repellat?
-              Accusamus nemo dignissimos unde iusto expedita eos
-              provident, modi quidem dolorum, sit odio magni at
-              exercitationem deleniti. 6
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value='item-6'>
-            <AccordionTrigger>
               E-Commerce Development
             </AccordionTrigger>
             <AccordionContent>
-              Looking to build an e-commerce store? I can help you
-              with custom solutions using hydrogen/shopify. A
-              framework by shopify where you can build your own custom
-              e-commerce storefronts.
+              I build custom e-commerce stores using Shopify and
+              Hydrogen. A framework by shopify where you can build
+              your own custom e-commerce storefronts. Always optimized
+              for conversion, with dynamic animations and custom
+              experiences that stand out.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value='item-8'>
+          <AccordionItem value='item-4'>
             <AccordionTrigger>Webflow Development</AccordionTrigger>
             <AccordionContent>
-              Build anything with webflow. I can help you with custom
-              solutions using webflow. Benefits of using webflow: Ease
-              to use after develpoment, CMS Integration is flawless.
+              I deliver fast-to-launch, design-led websites in Webflow
+              - either from scratch or by converting Figma designs
+              into clean, responsive builds. Built for visual clarity,
+              responsive layout, and seamless use of Webflow&apos;s
+              native CMS. Perfect for clients who want flexibility
+              without compromise.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value='item-5'>
+            <AccordionTrigger>CMS Integration</AccordionTrigger>
+            <AccordionContent>
+              I integrate your website with a CMS like Sanity or
+              Contentful, allowing you to manage content easily.
+              Perfect for clients who want to update their website
+              without touching code.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value='item-6'>
+            <AccordionTrigger>SEO</AccordionTrigger>
+            <AccordionContent>
+              I optimize your website for search engines - covering
+              technical SEO, on-page optimization, and in-depth audits
+              to ensure your content is discoverable and easily found.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
